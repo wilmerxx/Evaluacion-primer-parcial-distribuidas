@@ -63,6 +63,9 @@ public class WmscPublicidadRespositorio {
         for (WmscPublicacion wmscPublic:wmscPublicacionList ) {
                 if(wmscPublic.getWmscNombre().startsWith("A")){
                     wmscPublicacionList1.add(wmscPublic);
+                    //filtrar con que exista las para AC en la publicacion
+
+
                 }
         }
         return wmscPublicacionList1;
